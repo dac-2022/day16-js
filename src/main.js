@@ -1,5 +1,5 @@
-import { sum, diff, title } from "./calc.js";
+import { sum } from "./math.js";
+import { sum as cdac } from "./calc.js";
 
-console.log(title);
-const output = sum(1, 1);
-console.log(output);
+sum(1, 1);
+cdac(1, 1);
