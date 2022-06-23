@@ -1,4 +1,5 @@
-let calc = require("./calc");
+import { sum, diff, title } from "./calc.js";
 
-const output = calc.sum(1, 1);
+console.log(title);
+const output = sum(1, 1);
 console.log(output);

@@ -1,15 +1,20 @@
-export function sum(a, b) {
+let title = "CDAC";
+
+function sum(a, b) {
   return a + b;
 }
 
-export function diff(a, b) {
+function diff(a, b) {
   return a - b;
 }
 
-export function mul(a, b) {
+function mul(a, b) {
   return a * b;
 }
 
-export function div(a, b) {
+function div(a, b) {
   return a / b;
 }
+
+export { sum, diff, title };
+// module.exports = {}
